@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,69 @@
     <title>TrybeWarts</title>
 </head>
 <body>
+
     <section class="header"></div>
+
+    <main>
+
+      <!-- inicio do forms -->
+      <form action="" id="evaluation-form" > 
+        
+            <!-- parte inicial do forms -->
+          <section id="nomeCompleto" >
+            <input class="input-forms" type="text" name="nome" id="input-name" placeholder="Nome">
+            <input class="input-forms" type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+          </section>
+    
+          <section id="emailCasa" >
+            <input class="input-forms" type="email" id="input-email" placeholder="Email">
+            
+            <section id="label-house" >
+              <label for="">Casa:</label>
+              <select id="house">
+                <option value="Gitnória" id="gitnoria-house" >Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house" >Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house" >Corvinode</option>
+                <option value="Pytherina" id="pytherina-house" >Pytherina</option>
+              </select>
+            </section>
+          </section>
+    
+          <hr>
+    
+          <!-- parte do meio do forms -->
+          <section id="middle-section" >
+            <section id="family" >
+              <label for="" id="label-family" >Qual sua família?</label>
+              <section id="radio-family" >
+                <input type="radio" name="family" value="Frontend" class="family-type" > Família Frontend
+                <br>
+                <input type="radio" name="family" value="Backend" class="family-type" > Família Backend
+                <br>
+                <input type="radio" name="family" value="FullStack"class="family-type" > Família FullStack
+              </section>
+            </section>
+    
+            <section id="checkbox-conteudos" >
+              <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+              <section id="checkbox" >
+                <input type="checkbox" class="subject" value="HoFs"> HoFs
+                <input type="checkbox" class="subject" value="Jest"> Jest
+                <input type="checkbox" class="subject" value="Promises"> Promises
+                <br>
+                <input type="checkbox" class="subject" value="React"> React
+                <input type="checkbox" class="subject" value="SQL"> SQL
+                <input type="checkbox" class="subject" value="Python"> Python
+              </section>
+            </section>
+          </section>
+        </form>
+          <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" width="350px" >
+    </main>
+
+    <!-- rodapé da página -->
+    <footer>Direitos reservados à Trybewarts©</footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
