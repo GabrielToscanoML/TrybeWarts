@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#nomeCompleto {
+  display: flex;
+  justify-content: space-between;
+}
+
+#label-house {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+#emailCasa {
+  align-items: center;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-forms {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 3px;
+}
+
+#house {
+  width: 140px;
+  height: 30px;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0.1em;
+  margin-right: 1em;
+  border-style: groove;
+  border-width: 1px;
+}
+
+#middle-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#family {
+  display: block;
+  flex-direction: column;
+  width: 50%;
+}
+
+#checkbox-conteudos {
+  display: flex;
+  flex-direction: column;
+}
+
+#radio-family {
+  margin-top: 5px;
+}
+
+#checkbox {
+  margin-top: 5px;
+} 
+
+#trybewarts-forms-logo {
+  height: 400px;
+  margin-left: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content:  center;
+  color: white;
+  background-color: black;
+  height: 50px;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
