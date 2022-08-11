@@ -32,6 +32,15 @@ main {
   margin-right: 5px;
 }
 
+/* Estilizando a parte que recebe nome, sobrenome e email */
+.input-forms {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 3px;
+}
+
 /* Estilizando a parte que recebe o "email" e a casa */
 #emailCasa {
   align-items: center; /* Deixando os itens centralizados */
