@@ -4,6 +4,9 @@ header {
   background-color: rgb(50, 167, 145);
 }
 
+trybewarts-login{
+  display: flex;
+}
 /* alterei o tipo de fonte do corpo todo só para ficar um pouco melhor */
 body {
   font-family: Arial, Helvetica, sans-serif;
