@@ -1,8 +1,9 @@
 /* cria a barra verde */
 header {
-    display: flex;
-    background-color: rgb(50, 167, 145)
-};
+  display: flex;
+  background-color: rgb(50, 167, 145);
+}
+
 /* alterei o tipo de fonte do corpo todo só para ficar um pouco melhor */
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +11,7 @@ body {
 
 /* estilizando o conteudo principal */
 main {
-  padding-top: 20px; /* dando uma leve afastada para não ficar tudo junto*/
+  padding-top: 20px; /* dando uma leve afastada para não ficar tudo junto */
   display: flex; /* Colocando como flex para colocar os conteudos um do lado do outro */
   justify-content: space-around; /* colocando os conteudos lado a lado */
   align-items: center; /* Colocando os itens centralizados */
@@ -62,10 +63,7 @@ main {
 
 /* Estilizando a linha horizontal */
 hr {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0.1em;
-  margin-right: 1em;
+  margin: 1em 1em 1em 0.1em;
   border-style: groove;
   border-width: 1px;
 }
@@ -90,9 +88,9 @@ hr {
 }
 
 /* Dando um espacinho só pra ficar melhor */
-#radio-family, #checkbox {
+#radio-family , #checkbox {
   margin-top: 5px;
-} 
+}
 
 /* Aumentando o tamanho da imagem e afastando ela um pouco pela esquerda */
 #trybewarts-forms-logo {
@@ -103,7 +101,7 @@ hr {
 /* Estilizando o rodapé */
 footer {
   display: flex;
-  justify-content:  center; /* Deixando o conteúdo no meio da página */
+  justify-content: center; /* Deixando o conteúdo no meio da página */
   color: white;
   background-color: black;
   height: 50px;
