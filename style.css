@@ -2,9 +2,12 @@
 header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  align-self: center;
+  justify-content: space-around;
+  height: 60px;
 }
 
-trybewarts-login{
+.trybewarts-login{
   display: flex;
 }
 /* alterei o tipo de fonte do corpo todo só para ficar um pouco melhor */
