@@ -2,14 +2,39 @@
 header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  align-self: center;
-  justify-content: space-around;
-  height: 60px;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
-.trybewarts-login{
+.trybewarts-login {
   display: flex;
 }
+
+#trybewarts-header-title {
+  color: white;
+}
+
+#email-login , #senha {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 3px;
+}
+
+#botaoLogin {
+  margin-left: 3px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 90px;
+  height: 34px;
+  background-color: blueviolet;
+  color: white;
+}
+
 /* alterei o tipo de fonte do corpo todo só para ficar um pouco melhor */
 body {
   font-family: Arial, Helvetica, sans-serif;
