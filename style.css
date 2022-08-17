@@ -142,3 +142,10 @@ footer {
   position: fixed; /* Fixando o rodapé no final da página */
   width: 100%;
 }
+
+#validacao {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  justify-content: space-between;
+}
